@@ -10,7 +10,7 @@
 
 ### Time taken: 4 hours
 
-### [Live website]()
+### [Live website](https://wed-design-landing-vivekn.netlify.app/)
 
 ### Quick Look
 ![img](./QuickLook/8.png)
