@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}body{
+    background-image: url(../images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 90vh;
+}
+
+.main-div{
+    max-width: 80rem;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    align-items:center ;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.nav-item{
+    font-family: 'Roboto',sans-serif;
+    color: #3E4794;
+    font-size: 14px;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background:linear-gradient(90deg, #8f5ae5,#f9aae1);
+    border: none;
+    padding: 8px 24px;
+    border-radius:24px ;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* INTRO SECTION */
+
+.intro-section{
+    display: flex;
+}
+.left-section{
+    margin-left: 7rem;
+    margin-top: 7rem;
+}
+.left-section h1{
+    font-family: 'Roboto';
+    font-size: 70px;
+    font-weight: 800;
+    color:#3E4794;
+}
+.left-section h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #3E4794;
+    font-weight: 400;
+    margin-top: 2rem;
+    line-height: 20px;
+    margin-bottom: 2rem;
+}
+
+.imgs-div{
+    position: relative;
+}
+.imgs-div :last-child{
+    position: absolute;
+    width: 40vw;
+    top: 0px;
+    left: 250px;
+}
+.vector-img{
+    position: absolute;
+    width: 7rem;
+    top: 20rem;
+    left:3rem;
+}
+.vector-dot{
+    position: absolute;
+    width: 1.4rem;
+    top: 21rem;
+    left: 7rem;
+}
